@@ -1,0 +1,7 @@
+index=ssh_logs event_type="Connection Without Authentication"
+| stats count by id.orig_h
+ 
+-------------------------------------------------------------
+
+index=ssh_logs event_type="Connection Without Authentication"
+| timechart count by id.orig_h

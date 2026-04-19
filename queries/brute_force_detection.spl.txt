@@ -1,0 +1,8 @@
+index=ssh_logs event_type="Failed SSH Login"
+| stats count by id.orig_h
+
+--------------------------------------------
+
+index=ssh_logs event_type="Failed SSH Login"
+| stats count by id.orig_h
+| where count > 5 
