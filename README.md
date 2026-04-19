@@ -108,7 +108,10 @@ Account Compromise → Failed attempts followed by success
 Port Scanning / Reconnaissance → Repeated unauthenticated connections
 📸 Screenshots
 
+```
+<img width="1366" height="768" alt="08_Dashboard" src="https://github.com/user-attachments/assets/6823715f-4a99-4fec-89fb-50dfa62da0a3" />
 
+```
 
 Dashboard overview
 Failed login visualization
