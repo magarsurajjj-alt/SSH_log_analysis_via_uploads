@@ -29,22 +29,25 @@ The project simulates a basic SOC (Security Operations Center) workflow includin
 
 SSH-Log-Analysis-Splunk/
 │── README.md
-│── data/
-│ └── ssh_log.json
-│── screenshots/
-   └── data_ingestion
-   └── event_type
-   └── brute_force
-   └── failed_logins
-   └── alerts
-   └── successfull_login
-   └── connection_without_authentication
-   └── dashboard_all_events
-│── queries/
-   └── failed_logins.spl
-   └── brute_force_detection.spl
-   └── successful_logins.spl
-   └── suspicious_connections.spl
+│
+├── data/
+│   └── ssh_log.json
+│
+├── screenshots/
+│   ├── data_ingestion/
+│   ├── event_type/
+│   ├── brute_force/
+│   ├── failed_logins/
+│   ├── alerts/
+│   ├── successfull_login/
+│   ├── connection_without_authentication/
+│   └── dashboard_all_events/
+│
+├── queries/
+│   ├── failed_logins.spl
+│   ├── brute_force_detection.spl
+│   ├── successful_logins.spl
+│   └── suspicious_connections.spl
 
 ---
 
