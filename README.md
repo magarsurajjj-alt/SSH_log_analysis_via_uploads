@@ -1,4 +1,3 @@
-# SSH_log_analysis_via_uploads_using_splunk
 # 🔐 SSH Log Analysis using Splunk via uploads
 
 ## 📖 Overview
