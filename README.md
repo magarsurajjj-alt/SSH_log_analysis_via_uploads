@@ -113,7 +113,10 @@ Failed login visualization
 Alert configuration
 Query outputs
 🚨 Alerts (Optional Enhancement)
+```
+<img width="1361" height="682" alt="05_alerts_brute" src="https://github.com/user-attachments/assets/d32e5aed-76bf-4a0b-bacd-d91e465e7b56" />
 
+```
 Configured Splunk alert:
 
 Trigger when an IP has more than 5 failed login attempts in 10 minutes
@@ -129,7 +132,7 @@ Creating dashboards
 SOC analyst workflow understanding
 👨‍💻 Author
 
-Your Name
+Your Name:Suraj Pun Magar
 
 📌 Future Improvements
 Real-time log monitoring using forwarders
