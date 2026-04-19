@@ -102,11 +102,6 @@ Failed login attempts by IP
 Successful login activity
 Brute force detection panel
 SSH connection trends over time
-🚨 Detection Use Cases
-Brute Force Attack → Multiple failed login attempts
-Account Compromise → Failed attempts followed by success
-Port Scanning / Reconnaissance → Repeated unauthenticated connections
-📸 Screenshots
 
 ```
 <img width="1366" height="768" alt="08_Dashboard" src="https://github.com/user-attachments/assets/6823715f-4a99-4fec-89fb-50dfa62da0a3" />
