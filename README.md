@@ -27,12 +27,11 @@ The project simulates a basic SOC (Security Operations Center) workflow includin
 
 ## 📂 Project Structure
 
+```
 SSH-Log-Analysis-Splunk/
-│── README.md
-│
+├── README.md
 ├── data/
 │   └── ssh_log.json
-│
 ├── screenshots/
 │   ├── data_ingestion/
 │   ├── event_type/
@@ -42,12 +41,12 @@ SSH-Log-Analysis-Splunk/
 │   ├── successfull_login/
 │   ├── connection_without_authentication/
 │   └── dashboard_all_events/
-│
 ├── queries/
 │   ├── failed_logins.spl
 │   ├── brute_force_detection.spl
 │   ├── successful_logins.spl
 │   └── suspicious_connections.spl
+```
 
 
 ---
@@ -81,15 +80,20 @@ The dataset used in this project is `ssh_log.json`, which contains simulated SSH
 ### 1. View All Events
 ```spl
 index=ssh_logs
+
 2. Failed SSH Login Attempts
 index=ssh_logs event_type="Failed SSH Login"
 | stats count by id.orig_h
+
 3. Brute Force Detection
 index=ssh_logs event_type="Multiple Failed Authentication Attempts"
 | stats count by id.orig_h, id.resp_h
+
 4. Successful SSH Logins
 index=ssh_logs event_type="Successful SSH Login"
 | stats count by id.orig_h, id.resp_h
+<img width="1366" height="768" alt="08_Dashboard" src="https://github.com/user-attachments/assets/c63b85b1-03bf-46b8-910e-1438d2f1fd0b" />
+
 5. Unauthenticated Connection Attempts
 index=ssh_logs event_type="Connection Without Authentication"
 | timechart count by id.orig_h
@@ -104,7 +108,7 @@ Account Compromise → Failed attempts followed by success
 Port Scanning / Reconnaissance → Repeated unauthenticated connections
 📸 Screenshots
 
-(Add your Splunk dashboards and query results here)
+
 
 Dashboard overview
 Failed login visualization
