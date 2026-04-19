@@ -130,15 +130,6 @@ Writing SPL queries
 Detecting security threats
 Creating dashboards
 SOC analyst workflow understanding
-👨‍💻 Author
 
-Your Name:Suraj Pun Magar
-
-📌 Future Improvements
-Real-time log monitoring using forwarders
-Integration with threat intelligence feeds
-MITRE ATT&CK mapping
-Advanced alerting and incident response workflow
 ⭐ Conclusion
-
 This project demonstrates practical SOC skills using Splunk for SSH log monitoring and security threat detection, simulating real-world cybersecurity operations.
